@@ -1,4 +1,5 @@
 import CradsContent from "./components/cards";
+import GuideBlock from "./components/guide";
 import Header from "./components/header";
 import Main from "./components/main";
 
@@ -9,6 +10,7 @@ export default function Home() {
         <Header />
         <Main />
         <CradsContent />
+        <GuideBlock />
      </div>
     
   );
