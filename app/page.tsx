@@ -1,7 +1,10 @@
+import Advantages from "./components/advantages";
 import CradsContent from "./components/cards";
+import Footer from "./components/footer";
 import GuideBlock from "./components/guide";
 import Header from "./components/header";
 import Main from "./components/main";
+import Questions from "./components/questions";
 
 
 export default function Home() {
@@ -11,6 +14,9 @@ export default function Home() {
         <Main />
         <CradsContent />
         <GuideBlock />
+        <Advantages />
+        <Questions />
+        <Footer />
      </div>
     
   );
