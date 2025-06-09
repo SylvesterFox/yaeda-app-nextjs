@@ -9,14 +9,14 @@ import Questions from "./components/questions";
 
 export default function Home() {
   return (
-     <div className="h-[150vh]">
+     <div className="h-[476vh]">
         <Header />
-        <Main />
+        {/* <Main />
         <CradsContent />
         <GuideBlock />
         <Advantages />
         <Questions />
-        <Footer />
+        <Footer /> */}
      </div>
     
   );
