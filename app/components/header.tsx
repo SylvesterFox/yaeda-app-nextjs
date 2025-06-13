@@ -1,4 +1,5 @@
 import Image from "next/image";
+import BurgerMenu from "./burgermenu";
 
 export default function Header() {
     return (   
@@ -9,13 +10,7 @@ export default function Header() {
                     <Image src="/logo.png" alt="yaeda" width={120} height={120} className="lg:hidden" />
                     <h1 className="text-[10px] font-bold text-black lg:block lg:text-[20px]">Паринер сервиса</h1>
                 </div>
-                <nav className="ml-auto">
-                    <ul className="lg:flex space-x-3 drop-shadow-lg text-[20px] hidden">
-                        <li><a href="#" className="text-white  px-[15px] py-[10px] bg-[var(--color-element-background)] rounded-[30px] transition duration-500 hover:bg-white hover:text-black">Стать курьером</a></li>
-                        <li><a href="#" className="text-white px-[15px] py-[10px] bg-[var(--color-element-background)] rounded-[30px] transition duration-500 hover:bg-white hover:text-black">Преимущества</a></li>
-                        <li><a href="#" className="text-white  px-[15px] py-[10px] bg-[var(--color-element-background)] rounded-[30px] transition duration-500 hover:bg-white hover:text-black">FAQ</a></li>
-                    </ul>
-                </nav>
+                <BurgerMenu />
             </header>
         </div>
     )
