@@ -13,6 +13,8 @@ export default function Home() {
         <Header />
         <Main />
         <CradsContent />
+        <GuideBlock />
+        <Advantages />
         {/* <Main />
         <CradsContent />
         <GuideBlock />

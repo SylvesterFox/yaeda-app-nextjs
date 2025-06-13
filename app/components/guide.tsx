@@ -2,29 +2,23 @@ import OfferButton from "./offer-button";
 
 export default function GuideBlock() {
     return (
-        <div className="w-[1440px] h-[866px] mx-auto mt-[45px]">
-            <span className="text-[40px] font-bold w-[454px] ml-[183px]">
+        <div className="w-full max-w-screen-2xl px-4 mx-auto mt-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center sm:text-left sm:ml-50 mb-8">
                 Как стать курьером?
-            </span>
-            <div className="flex flex-col items-center mt-3">
-                <div className="w-[1122px] h-[568px] bg-white flex  items-center rounded-[45px] drop-shadow-lg mb-[48px]">
-                    <ul className="list-decimal font-bold text-[27px] my-[68px] ml-[53px] leading-[110px]">
-                        <li>
-                            <p>Заполнить анкету (2–3 минуты)</p>
-                        </li>
-                        <li>
-                            <p>Ознакомиться с условиями сотрудничества (2–3 минуты)</p>
-                        </li>
-                        <li>
-                            <p>Выбрать время и адрес курьерского центра для получения сумки</p>
-                        </li>
-                        <li>
-                            <p>Получить сумку, активировать приложение и начать доставки.</p>
-                        </li>
+            </h2>
+
+            <div className="flex flex-col items-center">
+                <div className="w-full max-w-[1122px] bg-white flex rounded-[30px] shadow-lg mb-12 p-6 sm:p-12">
+                    <ul className="list-decimal pl-6 sm:pl-10 text-lg sm:text-xl md:text-[27px] font-bold space-y-6 sm:space-y-8 leading-relaxed">
+                        <li>Заполнить анкету (2–3 минуты)</li>
+                        <li>Ознакомиться с условиями сотрудничества (2–3 минуты)</li>
+                        <li>Выбрать время и адрес курьерского центра для получения сумки</li>
+                        <li>Получить сумку, активировать приложение и начать доставки</li>
                     </ul>
                 </div>
+
                 <OfferButton />
             </div>
         </div>
-    )
+    );
 }
