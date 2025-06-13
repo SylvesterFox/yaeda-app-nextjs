@@ -11,6 +11,8 @@ export default function Home() {
   return (
      <div className="h-[476vh]">
         <Header />
+        <Main />
+        <CradsContent />
         {/* <Main />
         <CradsContent />
         <GuideBlock />
