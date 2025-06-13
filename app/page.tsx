@@ -15,6 +15,8 @@ export default function Home() {
         <CradsContent />
         <GuideBlock />
         <Advantages />
+        <Questions />
+        <Footer />
         {/* <Main />
         <CradsContent />
         <GuideBlock />
